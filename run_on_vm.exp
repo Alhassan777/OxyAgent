@@ -1,0 +1,13 @@
+#!/usr/bin/expect -f
+set timeout 300
+set cmd "bash -c {ls -la ~ 2>/dev/null; find ~ -maxdepth 5 -name main.py 2>/dev/null | head -5}"
+if {[llength $argv] > 0} { set cmd [lindex $argv 0] }
+
+spawn ssh -o StrictHostKeyChecking=no hackathon@34.58.67.151 $cmd
+expect {
+    -re {(?i)password:} { send "0f48c998\r"; exp_continue }
+    "yes/no" { send "yes\r"; exp_continue }
+    eof { catch wait result; exit 0 }
+    timeout { puts "TIMEOUT"; exit 1 }
+}
+expect eof

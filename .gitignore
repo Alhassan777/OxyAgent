@@ -1,5 +1,18 @@
-cvlib/__pycache__/object_detection.cpython-310.pyc
-cvlib/__pycache__/object_detection.cpython-37.pyc
-cvlib/__pycache__
+__pycache__/
+*.pyc
+.env/
+venvs/
 env/
+.DS_Store
 cvlib/resources
+
+# Large files
+*.mp4
+*.tar.gz
+*.pt
+*.pth
+*.pkl
+paligemma2-lora-out/
+paligemma2-lora-out-v2/
+*.log
+downloads/
