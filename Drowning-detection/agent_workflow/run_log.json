@@ -1,0 +1,5 @@
+{"timestamp": "2026-02-28T23:56:39.589315+00:00", "frame": 300, "state": "RESOLVED", "p_distress": 0.0, "eta": null, "dispatch_plan": null, "track_count": 0}
+{"timestamp": "2026-02-28T23:56:43.788647+00:00", "frame": 400, "state": "RESOLVED", "p_distress": 0.0, "eta": null, "dispatch_plan": null, "track_count": 0}
+{"timestamp": "2026-02-28T23:56:47.865545+00:00", "frame": 500, "state": "RESOLVED", "p_distress": 0.0, "eta": null, "dispatch_plan": null, "track_count": 0}
+{"timestamp": "2026-02-28T23:56:51.920983+00:00", "frame": 600, "state": "RESOLVED", "p_distress": 0.0, "eta": null, "dispatch_plan": null, "track_count": 0}
+{"timestamp": "2026-02-28T23:56:56.001949+00:00", "frame": 700, "state": "RESOLVED", "p_distress": 0.0, "eta": null, "dispatch_plan": null, "track_count": 1}
